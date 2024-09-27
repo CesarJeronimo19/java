@@ -1,5 +1,6 @@
 package Main;
 
+import POO.Automovil;
 import Tipos.Cadenas;
 import modelos.Persona;
 import modelos.PersonajesMarvel;
@@ -42,8 +43,25 @@ public class main {
 		//ms.SystemAcceso();
 		
 		//Archivos
-		ManejoArchivos ma=new ManejoArchivos();
-		ma.AccediendoConfigProperties();
+		//ManejoArchivos ma=new ManejoArchivos();
+		//ma.AccediendoConfigProperties();
+		
+		//POO
+		//Automovil auto=new Automovil(); //Instancia de un objeto
+		//auto.cadenaTexto="Estoy accediendo a un valor de un objeto libremente porque es publico"; //dando un valor al atributo fabricante
+				//En el objeto el fabricante esta declarado como public String fabricante: por eso es que puedo acceder a el atributo
+		//System.out.println("El texto nos dice: "+auto.cadenaTexto);
+		
+		Automovil chevrolet=new Automovil("Chrevrolet","2024","Negro",3.0);
+		System.out.println(chevrolet.verDetalle());
+		System.out.println(chevrolet.acelerar(3000));
+		System.out.println(chevrolet.frenar());
+		
+		System.out.println(chevrolet.acelerarFrenar(4000));
+		
+		//POJO-BEANS(algunos frameworks) -> el encapsulamiento
+		
+		
 	}
 
 }
