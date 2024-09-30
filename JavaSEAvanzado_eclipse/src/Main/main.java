@@ -52,6 +52,7 @@ public class main {
 				//En el objeto el fabricante esta declarado como public String fabricante: por eso es que puedo acceder a el atributo
 		//System.out.println("El texto nos dice: "+auto.cadenaTexto);
 		
+		/*
 		Automovil chevrolet=new Automovil("Chrevrolet","2024","Negro",3.0);
 		System.out.println(chevrolet.verDetalle());
 		System.out.println(chevrolet.acelerar(3000));
@@ -60,7 +61,8 @@ public class main {
 		System.out.println(chevrolet.acelerarFrenar(4000));
 		
 		//POJO-BEANS(algunos frameworks) -> el encapsulamiento
-		
+		*/
+		//primer commit en dell
 		
 	}
 
