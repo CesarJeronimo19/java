@@ -2,6 +2,7 @@ package Main;
 
 import POO.Automovil;
 import Tipos.Cadenas;
+import enumClases.color;
 import modelos.Persona;
 import modelos.PersonajesMarvel;
 import utiles.Estructuras;
@@ -59,8 +60,11 @@ public class main {
 		
 		System.out.println(chevrolet.acelerarFrenar(4000));
 		
-		//POJO-BEANS(algunos frameworks) -> el encapsulamiento
+		System.out.println(chevrolet);
+		System.out.println(chevrolet.toString());
 		
+		//POJO-BEANS(algunos frameworks) -> el encapsulamiento
+		System.out.println(color.DORADO.getColor());
 		
 	}
 
