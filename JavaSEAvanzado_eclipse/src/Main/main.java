@@ -62,8 +62,12 @@ public class main {
 		
 		//POJO-BEANS(algunos frameworks) -> el encapsulamiento
 		*/
-		//primer commit en dell
 		
+		//Paquetes-> contenedores que nos permiten agrupar y organizar nuestras clases
+		//Se puede utilizar de la sig manera pero no es lo correcto
+		com.jjeronimo.paquete.hogar.Persona p=new com.jjeronimo.paquete.hogar.Persona();
+		p.nombre="Cesar Jeronimo";
+		System.out.println(p.nombre);
 	}
 
 }
