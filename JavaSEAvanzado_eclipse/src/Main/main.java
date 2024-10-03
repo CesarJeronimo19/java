@@ -63,13 +63,7 @@ public class main {
 		System.out.println(chevrolet);
 		System.out.println(chevrolet.toString());
 		
-		//POJO-BEANS(algunos frameworks) -> el encapsulamiento
-<<<<<<< HEAD
-		*/
-=======
-		System.out.println(color.DORADO.getColor());
->>>>>>> 42bb39899bafeb83ac2ac016e46e4bd231a6b733
-		
+
 		//Paquetes-> contenedores que nos permiten agrupar y organizar nuestras clases
 		//Se puede utilizar de la sig manera pero no es lo correcto
 		com.jjeronimo.paquete.hogar.Persona p=new com.jjeronimo.paquete.hogar.Persona();
