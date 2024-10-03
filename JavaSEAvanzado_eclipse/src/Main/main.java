@@ -2,6 +2,7 @@ package Main;
 
 import POO.Automovil;
 import Tipos.Cadenas;
+import enumClases.color;
 import modelos.Persona;
 import modelos.PersonajesMarvel;
 import utiles.Estructuras;
@@ -52,7 +53,6 @@ public class main {
 				//En el objeto el fabricante esta declarado como public String fabricante: por eso es que puedo acceder a el atributo
 		//System.out.println("El texto nos dice: "+auto.cadenaTexto);
 		
-		/*
 		Automovil chevrolet=new Automovil("Chrevrolet","2024","Negro",3.0);
 		System.out.println(chevrolet.verDetalle());
 		System.out.println(chevrolet.acelerar(3000));
@@ -60,8 +60,15 @@ public class main {
 		
 		System.out.println(chevrolet.acelerarFrenar(4000));
 		
+		System.out.println(chevrolet);
+		System.out.println(chevrolet.toString());
+		
 		//POJO-BEANS(algunos frameworks) -> el encapsulamiento
+<<<<<<< HEAD
 		*/
+=======
+		System.out.println(color.DORADO.getColor());
+>>>>>>> 42bb39899bafeb83ac2ac016e46e4bd231a6b733
 		
 		//Paquetes-> contenedores que nos permiten agrupar y organizar nuestras clases
 		//Se puede utilizar de la sig manera pero no es lo correcto
